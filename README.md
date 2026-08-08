@@ -22,14 +22,15 @@ default that GitHub inherits into any repo in the org that does not define its o
 
 GitHub renders a different overview depending on who is looking.
 
-| Viewer | Repo | File |
-|---|---|---|
-| Anyone on the internet | `advizrai/.github` (public) | `profile/README.md` |
-| Signed-in org members | `advizrai/.github-private` (private) | `profile/README.md` |
+| Viewer | What renders |
+|---|---|
+| Anyone on the internet | `profile/README.md` in this repo |
+| Signed-in org members | A separate members-only profile |
 
-The public one is a credibility surface for prospects, partners, and candidates. The members-only one
-is the engineering front door: setup, architecture, conventions, and who owns what. Put internal
-detail in `.github-private`. It is never visible to the public.
+This repo is the public one, and it is a credibility surface for prospects, partners, and candidates.
+The members-only profile is the engineering front door: setup, architecture, conventions, and who
+owns what. Internal detail belongs there and never here. See `handbook/15-github-org-profile.md` in
+the agency knowledge base for how to reach it.
 
 ## Editing rules
 
