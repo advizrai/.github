@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" height="340" role="img" aria-labelledby="advizr-banner-title">
+  <title id="advizr-banner-title">Advizr. AI transformation for businesses that refuse to fall behind.</title>
+  <rect width="1100" height="340" fill="#0F0F11"/>
+  <g transform="translate(88,86) scale(0.57) translate(-104.2,-109)">
+    <path d="M 235.6 117.1 L 187.3 123.5 L 115.0 345.8 L 170.5 338.2 L 215.9 179.4 L 354.0 393.3 L 396.2 366.0 Z"
+          fill="#FAF8F5" stroke="#FAF8F5" stroke-width="15" stroke-linejoin="round"/>
+  </g>
+  <text x="316" y="157" fill="#FAF8F5" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="92" font-weight="700" letter-spacing="16">ADVIZR</text>
+  <rect x="316" y="185" width="88" height="7" fill="#E66A6A"/>
+  <text x="316" y="243" fill="#9A958C" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="27">AI transformation for businesses that refuse to fall behind.</text>
+</svg>

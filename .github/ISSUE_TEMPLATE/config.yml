@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/advizrai/.github/blob/main/SECURITY.md
+    about: Do not open an issue. Email info@advizr.ca with the subject SECURITY.
+  - name: Documentation
+    url: https://docs.advizr.ca
+    about: Platform and Academy docs.
+  - name: Client support
+    url: mailto:info@advizr.ca
+    about: You are an Advizr client and need help with your environment.
+  - name: Book a strategy call
+    url: https://calendly.com/advizrconsulting/ai-strategy-call
+    about: You want to work with us.

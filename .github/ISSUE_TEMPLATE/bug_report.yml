@@ -1,0 +1,66 @@
+name: Bug report
+description: Something behaves differently than it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Found a security issue? Do not file it here. Email info@advizr.ca with the subject `SECURITY`.
+        See [SECURITY.md](https://github.com/advizrai/.github/blob/main/SECURITY.md).
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+      placeholder: |
+        Expected: the run finishes and writes an output row.
+        Actual: the run is marked failed and no row is written.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The shortest path from a clean state to the bug.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: Where
+      description: Repo, service, environment, and tenant or account if it is specific to one.
+      placeholder: "example-service, production"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Logs, stack traces, request IDs, run IDs, or screenshots. Redact secrets first.
+      render: shell
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Blocking, production is down or data is wrong
+        - Major, a feature does not work and there is no workaround
+        - Minor, there is a workaround
+        - Cosmetic
+    validations:
+      required: true
+
+  - type: input
+    id: first-seen
+    attributes:
+      label: First seen
+      description: When it started, and the last known good version or commit if you have it.
