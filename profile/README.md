@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile/banner-light.svg">
-  <img alt="Advizr" src="profile/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+  <img alt="Advizr" src="banner-light.svg" width="100%">
 </picture>
 
 # You will have superpowers.
