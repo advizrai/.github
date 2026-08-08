@@ -1,0 +1,45 @@
+name: Feature request
+description: Propose a change in behavior or a new capability
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What is hard, slow, or impossible today. Describe the situation, not the solution.
+      placeholder: Reconciling a blocked client takes a manual run and nobody can tell which ones are blocked.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you want to happen
+      description: The behavior you are asking for.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you already tried or considered
+      description: Existing workarounds, and why they are not enough.
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Who this affects
+      multiple: true
+      options:
+        - Clients
+        - Internal team
+        - Contractors
+        - Prospects
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: How we would know it works
+      description: What you would check to confirm this shipped correctly.
